@@ -1,12 +1,7 @@
 const express = require('express');
 const crypto = require('crypto');
-const axios = require('axios');
 const app = express();
 
-const api = axios.create({
-    baseURL: 'http://localhost:5000'
-  }
-  )
 
 //sha - secure hash algorithm
 //The hash.digest() method calculates all the data that needs to be hashed passed inside the hash function and returns them.
