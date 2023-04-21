@@ -10,7 +10,7 @@ const app = express();
 //the 256 in the name stands for the final hash digest value, i.e. irrespective of the size of plaintext/cleartext, the hash value will always be 256 bits.
 app.get('/epone', function(req, res){
     try{
-        const randData = crypto.randomBytes()
+        const randData = crypto.randomBytes(256)
         const hashAlg = crypto.createHash('sha256')
         hashAlg.update(randData)
         const hash  = hashAlg.digest('hex')
