@@ -1,2 +1,2 @@
 # redsquare_backend
-redsquare backend assessment
+redsquare backend assessment prior to technical interview
