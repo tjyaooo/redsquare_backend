@@ -1,5 +1,5 @@
-# redsquare_backend
-redsquare backend assessment prior to technical interview
+# RedSquare_backend
+RedSquare backend assessment prior to technical interview
 Royce.
 
 Question 1's attempt is in question1.py
